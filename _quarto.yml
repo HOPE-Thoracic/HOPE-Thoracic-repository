@@ -1,5 +1,8 @@
 project:
   type: website
+  output-dir: docs
+  resources:
+    - downloads/**
 
 website:
   title: "HOPE Thoracic repository"
@@ -7,13 +10,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: downloads/index.qmd
+        text: Downloads
       - about.qmd
+
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
 

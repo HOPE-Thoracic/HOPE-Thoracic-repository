@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "downloads/index.html",
+    "href": "downloads/index.html",
+    "title": "Downloads",
+    "section": "",
+    "text": "Below are all files currently available for download.\n\n\n*(No files uploaded yet)*"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "docs/downloads/index.html",
+    "href": "docs/downloads/index.html",
+    "title": "Downloads",
+    "section": "",
+    "text": "Below are all files currently available for download.\n#| echo: false #| message: false #| warning: false\n\nEnsure the folder exists (safe if it already does)\ndir.create(“downloads/files”, recursive = TRUE, showWarnings = FALSE)\n\n\nList files in downloads/files\nfiles &lt;- list.files(“downloads/files”, full.names = TRUE)\nif (length(files) == 0) { cat(“(No files uploaded yet)”) } else { names &lt;- basename(files) sizes_mb &lt;- round(file.info(files)$size / (1024^2), 2)\ndf &lt;- data.frame( File = sprintf(“%s”, names, names), Size_MB = sizes_mb, stringsAsFactors = FALSE )\nknitr::kable(df, format = “html”, escape = FALSE) }"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HOPE Thoracic repository",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]
