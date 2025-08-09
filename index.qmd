@@ -21,9 +21,9 @@ To join our listserv, please email: `mprizzi1` **at** `jhu` **dot** `edu`
 
 
 ### Available Resources
-This site provides sample protocols and paperwork to help your site get started. All materials are freely downloadable, including:
+This site provides sample protocols and paperwork to help your site get started. All materials are freely [downloadable](https://hope-thoracic.github.io/HOPE-Thoracic-repository/downloads/), including:
 
-- **Pilot protocol**
+- [**Pilot protocol**](downloads/files/HOPE%20Thoracic%20Pilot%20Protocol.docx)
 - **Sample IRB language**
 - **Sample informed consent**
 - **Template documents for program launch**
