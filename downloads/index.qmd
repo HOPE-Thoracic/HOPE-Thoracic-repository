@@ -5,29 +5,39 @@ editor: source
 
 Below are all files currently available for download.
 
-```{r} 
-#| echo: false 
-#| message: false 
+
+```{r}
+#| echo: false
+#| message: false
 #| warning: false
 
-# Ensure the folder exists (safe if it already does)
 dir.create("downloads/files", recursive = TRUE, showWarnings = FALSE)
 
-# List files in downloads/files
 files <- list.files("downloads/files", full.names = TRUE)
 
 if (length(files) == 0) {
   cat("*(No files uploaded yet)*")
 } else {
-  names <- basename(files)
-  sizes_mb <- round(file.info(files)$size / (1024^2), 2)
+  info  <- file.info(files)
+  ord   <- order(info$mtime, decreasing = TRUE)  # newest first
+  files <- files[ord]
+  info  <- info[ord, ]
+
+  names    <- basename(files)
+  relpaths <- file.path("files", utils::URLencode(names, reserved = TRUE))  # safe links
 
   df <- data.frame(
-    File = sprintf("[%s](files/%s)", names, names),
-    Size_MB = sizes_mb,
-    stringsAsFactors = FALSE
+    File     = sprintf("[%s](%s)", names, relpaths),
+    Size_MB  = round(info$size / (1024^2), 2),
+    Updated  = as.Date(info$mtime),
+    check.names = FALSE
   )
 
-  knitr::kable(df, format = "html", escape = FALSE)
+  knitr::kable(
+    df,
+    format = "html",
+    escape = FALSE,
+    table.attr = 'class="table table-striped table-sm"'
+  )
 }
 ```
