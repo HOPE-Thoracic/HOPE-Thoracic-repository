@@ -4,7 +4,7 @@
     "href": "downloads/index.html",
     "title": "Downloads",
     "section": "",
-    "text": "Below are all files currently available for download.\n\n#| label: setup-files-dir\n#| include: false\n#| echo: false\n#| message: false\n#| warning: false\n\n# Find project root (where _quarto.yml lives)\nfind_root &lt;- function() {\n  p &lt;- normalizePath(\".\", winslash = \"/\", mustWork = TRUE)\n  prev &lt;- \"\"\n  while (!file.exists(file.path(p, \"_quarto.yml\")) && p != prev) {\n    prev &lt;- p\n    p &lt;- dirname(p)\n  }\n  p\n}\n\nproj_root &lt;- find_root()\n\ncand &lt;- c(\n  source = file.path(proj_root, \"downloads\", \"files\"),\n  docs   = file.path(proj_root, \"docs\", \"downloads\", \"files\")\n)\n\nFILES_DIR &lt;- cand[[\"source\"]]\nif (!dir.exists(FILES_DIR) && dir.exists(cand[[\"docs\"]])) {\n  FILES_DIR &lt;- cand[[\"docs\"]]\n}\n\n\n\n\n\n\nFile\nSize_MB\nUpdated\n\n\n\n\nMontefiore Einstein HOPE consent.pdf\n0.13\n2025-08-09\n\n\nMontefiore Einstein IRB brief protocol.pdf\n0.26\n2025-08-09\n\n\nMontefiore Einstein full IRB submission.pdf\n8.93\n2025-08-09\n\n\nHOPE Thoracic Pilot Protocol.docx\n0.12\n2025-08-09"
+    "text": "Below are all files currently available for download.\n\n\n\n\n\nFile\nSize_MB\nUpdated\n\n\n\n\nMontefiore Einstein HOPE consent.pdf\n0.13\n2025-08-09\n\n\nMontefiore Einstein IRB brief protocol.pdf\n0.26\n2025-08-09\n\n\nMontefiore Einstein full IRB submission.pdf\n8.93\n2025-08-09\n\n\nHOPE Thoracic Pilot Protocol.docx\n0.12\n2025-08-09"
   },
   {
     "objectID": "about.html",
