@@ -38,7 +38,10 @@ FILES_DIR <- cand[["source"]]
 if (!dir.exists(FILES_DIR) && dir.exists(cand[["docs"]])) {
   FILES_DIR <- cand[["docs"]]
 }
+```
 
+
+```{r}
 #| echo: false
 #| message: false
 #| warning: false
