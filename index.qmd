@@ -31,11 +31,14 @@ This site provides sample protocols and paperwork to help your site get started.
 We can also connect you with members of our consortium to help establish a **Data and Safety Monitoring Board (DSMB)** if needed.
 
 Once your institution has IRB approval, you can apply for a UNOS waiver as per the process delineated here:
-https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/
+[https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/](https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/)
 
+We hope to update this page with information about a future funded trial soon!
 
 ---
 
 ### Contact
 For additional questions, please contact:  
 Vagish Hemmige — `vahemmig` **at** `montefiore` **dot** `org`
+
+*Last updated: `r Sys.Date()`*
