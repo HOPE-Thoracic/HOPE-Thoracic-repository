@@ -8,12 +8,54 @@ Below are all files currently available for download.
 
 ```{r}
 #| echo: false
-#| message: false
-#| warning: false
+#| message: true
+#| warning: true
 
 dir.create("downloads/files", recursive = TRUE, showWarnings = FALSE)
 
-files <- list.files("downloads/files", full.names = TRUE)
+# Find project root (where _quarto.yml lives)
+find_root <- function() {
+  p <- normalizePath(".", winslash = "/", mustWork = TRUE)
+  prev <- ""
+  while (!file.exists(file.path(p, "_quarto.yml")) && p != prev) {
+    prev <- p
+    p <- dirname(p)
+  }
+  p
+}
+
+proj_root <- find_root()
+cat("Quarto project root:", proj_root, "\n")
+cat("Working directory   :", normalizePath(getwd(), winslash = "/", mustWork = TRUE), "\n")
+
+# Candidate locations
+cand <- c(
+  source = file.path(proj_root, "downloads", "files"),
+  docs   = file.path(proj_root, "docs", "downloads", "files")
+)
+
+# Report which exist
+cat("Path check:\n")
+for (nm in names(cand)) {
+  cat(sprintf("  - %s: %s\n", nm, if (dir.exists(cand[[nm]])) "FOUND" else "missing"))
+}
+
+# Decide which to use (prefer source path)
+FILES_DIR <- cand[["source"]]
+if (!dir.exists(FILES_DIR)) {
+  if (dir.exists(cand[["docs"]])) {
+    FILES_DIR <- cand[["docs"]]
+    warning("Files found in docs/downloads/files. Move them to downloads/files before rendering to keep the listing dynamic.")
+  } else {
+    warning("No files directory found. Create 'downloads/files' and add files.")
+  }
+}
+
+# Quick count
+n <- if (dir.exists(FILES_DIR)) length(list.files(FILES_DIR, full.names = TRUE)) else 0
+cat("Detected", n, "file(s) in:", FILES_DIR, "\n")
+
+files <- list.files(FILES_DIR, full.names = TRUE)
 
 if (length(files) == 0) {
   cat("*(No files uploaded yet)*")
