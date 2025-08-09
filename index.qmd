@@ -2,10 +2,40 @@
 title: "HOPE Thoracic repository"
 ---
 
-This is a Quarto website.
+![](images/hope-in-action.jpg){fig-align="center"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to the **HOPE Thoracic Repository**, a resource for heart and lung transplant programs interested in launching pilot programs for **HIV D+/R+ transplants** (“HOPE transplants”).
 
-```{r}
-1 + 1
-```
+---
+
+### Background
+Investigators across the U.S. are preparing for a nationwide trial of HIV D+/R+ transplants, planned for launch in **2027**.  
+In the meantime, updated federal laws now allow centers to establish their own independent **HIV D+/R+ heart transplant programs**.
+
+---
+
+### Join the Network
+To join our listserv, please email: `mprizzi1` **at** `jhu` **dot** `edu`
+
+---
+
+
+### Available Resources
+This site provides sample protocols and paperwork to help your site get started. All materials are freely downloadable, including:
+
+- **Pilot protocol**
+- **Sample IRB language**
+- **Sample informed consent**
+- **Template documents for program launch**
+
+We can also connect you with members of our consortium to help establish a **Data and Safety Monitoring Board (DSMB)** if needed.
+
+Once your institution has IRB approval, you can apply for a UNOS waiver as per the process delineated here:
+https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/
+
+
+---
+
+### Contact
+For additional questions, please contact:  
+Vagish Hemmige — `vahemmig` **at** `montefiore` **dot** `org`
