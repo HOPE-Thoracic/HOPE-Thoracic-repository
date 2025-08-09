@@ -2,8 +2,26 @@
 title: "About"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+## About This Site
+
+The **HOPE Thoracic Repository** is a collaborative resource for heart and lung transplant programs interested in launching pilot programs for **HIV D+/R+ transplants**.
+
+This site was created to:
+- Share protocols, sample documents, and best practices
+- Connect programs interested in HOPE transplants
+- Provide updates on upcoming clinical trials and regulatory changes
+
+Our materials are intended for transplant centers, clinicians, researchers, and other stakeholders working to expand access to transplantation for people living with HIV.
+
+---
+
+### How to Get Involved
+We welcome contributions and collaboration from interested centers. If your program is considering starting a HOPE pilot project, you can:
+1. Explore our [Downloads](downloads/) section for ready-to-use resources.
+2. Join the HOPE Thoracic listserv (see the homepage for contact info).
+3. Share feedback and improvements to our materials.
+
+---
+
+*Last updated: `r Sys.Date()`*
