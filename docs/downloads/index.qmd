@@ -6,12 +6,15 @@ editor: source
 Below are all files currently available for download.
 
 
-```{r}
-#| echo: false
-#| message: true
-#| warning: true
 
-dir.create("downloads/files", recursive = TRUE, showWarnings = FALSE)
+
+```{r}
+
+#| label: setup-files-dir
+#| include: false
+#| echo: false
+#| message: false
+#| warning: false
 
 # Find project root (where _quarto.yml lives)
 find_root <- function() {
@@ -25,61 +28,54 @@ find_root <- function() {
 }
 
 proj_root <- find_root()
-cat("Quarto project root:", proj_root, "\n")
-cat("Working directory   :", normalizePath(getwd(), winslash = "/", mustWork = TRUE), "\n")
 
-# Candidate locations
 cand <- c(
   source = file.path(proj_root, "downloads", "files"),
   docs   = file.path(proj_root, "docs", "downloads", "files")
 )
 
-# Report which exist
-cat("Path check:\n")
-for (nm in names(cand)) {
-  cat(sprintf("  - %s: %s\n", nm, if (dir.exists(cand[[nm]])) "FOUND" else "missing"))
+FILES_DIR <- cand[["source"]]
+if (!dir.exists(FILES_DIR) && dir.exists(cand[["docs"]])) {
+  FILES_DIR <- cand[["docs"]]
 }
 
-# Decide which to use (prefer source path)
-FILES_DIR <- cand[["source"]]
+#| echo: false
+#| message: false
+#| warning: false
+
+# Read files from detected directory
 if (!dir.exists(FILES_DIR)) {
-  if (dir.exists(cand[["docs"]])) {
-    FILES_DIR <- cand[["docs"]]
-    warning("Files found in docs/downloads/files. Move them to downloads/files before rendering to keep the listing dynamic.")
+  cat("*(No files uploaded yet — add files to `downloads/files/` and re-render.)*")
+} else {
+  files <- list.files(FILES_DIR, full.names = TRUE)
+  if (length(files) == 0) {
+    cat("*(No files uploaded yet — check back soon.)*")
   } else {
-    warning("No files directory found. Create 'downloads/files' and add files.")
+    info  <- file.info(files)
+    ord   <- order(info$mtime, decreasing = TRUE)  # newest first
+    files <- files[ord]
+    info  <- info[ord, ]
+
+    names    <- basename(files)
+    relpaths <- file.path("files", utils::URLencode(names, reserved = TRUE))  # link targets
+
+    # Use HTML anchors so links are guaranteed clickable
+    link_html <- sprintf('<a href="%s">%s</a>', relpaths, names)
+
+    df <- data.frame(
+      File    = link_html,
+      Size_MB = round(info$size / (1024^2), 2),
+      Updated = as.Date(info$mtime),
+      check.names = FALSE
+    )
+
+    knitr::kable(
+      df,
+      format = "html",
+      escape = FALSE,                          # allow the <a> tags
+      table.attr = 'class="table table-striped table-sm"'
+    )
   }
 }
 
-# Quick count
-n <- if (dir.exists(FILES_DIR)) length(list.files(FILES_DIR, full.names = TRUE)) else 0
-cat("Detected", n, "file(s) in:", FILES_DIR, "\n")
-
-files <- list.files(FILES_DIR, full.names = TRUE)
-
-if (length(files) == 0) {
-  cat("*(No files uploaded yet)*")
-} else {
-  info  <- file.info(files)
-  ord   <- order(info$mtime, decreasing = TRUE)  # newest first
-  files <- files[ord]
-  info  <- info[ord, ]
-
-  names    <- basename(files)
-  relpaths <- file.path("files", utils::URLencode(names, reserved = TRUE))  # safe links
-
-  df <- data.frame(
-    File     = sprintf("[%s](%s)", names, relpaths),
-    Size_MB  = round(info$size / (1024^2), 2),
-    Updated  = as.Date(info$mtime),
-    check.names = FALSE
-  )
-
-  knitr::kable(
-    df,
-    format = "html",
-    escape = FALSE,
-    table.attr = 'class="table table-striped table-sm"'
-  )
-}
 ```
