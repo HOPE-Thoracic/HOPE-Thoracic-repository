@@ -24,8 +24,8 @@ To join our listserv, please email: `mprizzi1` **at** `jhu` **dot** `edu`
 This site provides sample protocols and paperwork to help your site get started. All materials are freely [downloadable](https://hope-thoracic.github.io/HOPE-Thoracic-repository/downloads/), including:
 
 - [**Pilot protocol**](downloads/files/HOPE%20Thoracic%20Pilot%20Protocol.docx)
-- **Sample IRB language**
-- **Sample informed consent**
+- [**Sample IRB brief protocol**](downloads/files/Montefiore%20Einstein%20IRB%20brief%20protocol.pdf) or [**full protocol**](downloads/files/Montefiore%20Einstein%20full%20IRB%20submission.pdf)
+- [**Sample informed consent**](downloads/files/Montefiore%20Einstein%20HOPE%20consent.pdf)
 - **Template documents for program launch**
 
 We can also connect you with members of our consortium to help establish a **Data and Safety Monitoring Board (DSMB)** if needed.
