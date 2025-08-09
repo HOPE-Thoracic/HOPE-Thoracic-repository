@@ -22,4 +22,4 @@ We welcome contributions and collaboration from interested centers. If your prog
 
 ------------------------------------------------------------------------
 
-*Last updated: `r Sys.Date()'*
+*Last updated: `r Sys.Date()`*

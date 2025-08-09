@@ -6,39 +6,41 @@ title: "HOPE Thoracic repository"
 
 Welcome to the **HOPE Thoracic Repository**, a resource for heart and lung transplant programs interested in launching pilot programs for **HIV D+/R+ transplants** (“HOPE transplants”).
 
----
+------------------------------------------------------------------------
 
 ### Background
-Investigators across the U.S. are preparing for a nationwide trial of HIV D+/R+ transplants, planned for launch in **2027**.  
+
+Investigators across the U.S. are preparing for a nationwide trial of HIV D+/R+ transplants, planned for launch in **2027**.\
 In the meantime, updated federal laws now allow centers to establish their own independent **HIV D+/R+ heart transplant programs**.
 
----
+------------------------------------------------------------------------
 
 ### Join the Network
+
 To join our listserv, please email: `mprizzi1` **at** `jhu` **dot** `edu`
 
----
-
+------------------------------------------------------------------------
 
 ### Available Resources
+
 This site provides sample protocols and paperwork to help your site get started. All materials are freely [downloadable](https://hope-thoracic.github.io/HOPE-Thoracic-repository/downloads/), including:
 
-- [**Pilot protocol**](downloads/files/HOPE%20Thoracic%20Pilot%20Protocol.docx)
-- [**Sample IRB brief protocol**](downloads/files/Montefiore%20Einstein%20IRB%20brief%20protocol.pdf) or [**full protocol**](downloads/files/Montefiore%20Einstein%20full%20IRB%20submission.pdf)
-- [**Sample informed consent**](downloads/files/Montefiore%20Einstein%20HOPE%20consent.pdf)
-- **Template documents for program launch**
+-   [**Pilot protocol**](downloads/files/HOPE%20Thoracic%20Pilot%20Protocol.docx)
+-   [**Sample IRB brief protocol**](downloads/files/Montefiore%20Einstein%20IRB%20brief%20protocol.pdf) or [**full protocol**](downloads/files/Montefiore%20Einstein%20full%20IRB%20submission.pdf)
+-   [**Sample informed consent**](downloads/files/Montefiore%20Einstein%20HOPE%20consent.pdf)
+-   **Template documents for program launch**
 
 We can also connect you with members of our consortium to help establish a **Data and Safety Monitoring Board (DSMB)** if needed.
 
-Once your institution has IRB approval, you can apply for a UNOS waiver as per the process delineated here:
-[https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/](https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/)
+Once your institution has IRB approval, you can apply for a UNOS waiver as per the process delineated here: <https://optn.transplant.hrsa.gov/professionals/by-topic/hope-act/>
 
 We hope to update this page with information about a future funded trial soon!
 
----
+------------------------------------------------------------------------
 
 ### Contact
-For additional questions, please contact:  
+
+For additional questions, please contact:\
 Vagish Hemmige — `vahemmig` **at** `montefiore` **dot** `org`
 
-*Last updated: `r Sys.Date()'*
+*Last updated: `r Sys.Date()`*
