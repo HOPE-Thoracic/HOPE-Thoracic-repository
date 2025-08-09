@@ -41,4 +41,4 @@ We hope to update this page with information about a future funded trial soon!
 For additional questions, please contact:  
 Vagish Hemmige — `vahemmig` **at** `montefiore` **dot** `org`
 
-*Last updated: `r Sys.Date()`*
+*Last updated: `r Sys.Date()'*
