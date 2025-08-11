@@ -11,9 +11,8 @@ format:
 ```{r}
 #| echo: false
 #| results: asis
+#| warning: false
 faq <- yaml::read_yaml("data/faq.yml")
-
-cat("# Frequently Asked Questions\n\n")
 
 
 # Backward-compatible: support either grouped (with $category) or flat list

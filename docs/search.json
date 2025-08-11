@@ -39,14 +39,14 @@
     "href": "faq.html",
     "title": "FAQ",
     "section": "",
-    "text": "Warning in readLines(file, warn = readLines.warn): incomplete final line found\non 'data/faq.yml'"
+    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
   },
   {
     "objectID": "faq.html#general",
     "href": "faq.html#general",
     "title": "FAQ",
-    "section": "General",
-    "text": "General\n\n\nWhat is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
+    "section": "",
+    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
   },
   {
     "objectID": "faq.html#sample-collection",
