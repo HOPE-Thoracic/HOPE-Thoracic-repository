@@ -46,7 +46,7 @@
     "href": "faq.html#general",
     "title": "FAQ",
     "section": "General",
-    "text": "General\n\n\nWhat is the purpose of this site?\n\nThis site provides resources and updates for our project. See the About page for goals and contributors.\n\n\n\nHow often is it updated?\n\nWe aim to update it monthly. Major changes are listed on the Downloads page."
+    "text": "General\n\n\nWhat is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
   },
   {
     "objectID": "faq.html#sample-collection",
@@ -54,5 +54,12 @@
     "title": "FAQ",
     "section": "Sample collection",
     "text": "Sample collection\n\n\nCan I contribute?\n\nYes! Open a GitHub issue or email the maintainer."
+  },
+  {
+    "objectID": "faq.html#sample-collection-for-pilot-study",
+    "href": "faq.html#sample-collection-for-pilot-study",
+    "title": "FAQ",
+    "section": "Sample collection for pilot study",
+    "text": "Sample collection for pilot study\n\n\nShould we collect lymph nodes from donors for the pilot study?\n\nIf possible, yes! Some centers have instituted lymph node collection procedures."
   }
 ]
