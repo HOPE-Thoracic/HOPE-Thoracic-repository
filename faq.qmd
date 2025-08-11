@@ -1,0 +1,46 @@
+---
+title: "FAQ"
+page-layout: article
+toc: true
+toc-depth: 2
+format:
+  html:
+    css: styles/faq.css
+---
+
+```{r}
+#| echo: false
+#| results: asis
+faq <- yaml::read_yaml("data/faq.yml")
+
+cat("# Frequently Asked Questions\n\n")
+
+
+# Backward-compatible: support either grouped (with $category) or flat list
+is_grouped <- is.list(faq) && length(faq) > 0 && !is.null(faq[[1]]$category)
+
+if (!is_grouped) {
+  # Flat list fallback
+  for (item in faq) {
+    cat("<details class='faq' markdown='1'>\n")
+    cat(paste0("<summary><strong>", item$question, "</strong></summary>\n\n"))
+    cat(item$answer, "\n")
+    cat("</details>\n\n")
+  }
+} else {
+  # Optional: order categories as written (or alphabetically)
+  # faq <- faq[order(vapply(faq, function(x) x$category, ""))]
+
+  for (grp in faq) {
+    cat(paste0("## ", grp$category, "\n\n"))
+    for (item in grp$items) {
+      cat("<details class='faq' markdown='1'>\n")
+      cat(paste0("<summary><strong>", item$question, "</strong></summary>\n\n"))
+      cat(item$answer, "\n")
+      cat("</details>\n\n")
+    }
+    cat("\n")
+  }
+}
+```
+

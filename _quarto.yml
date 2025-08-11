@@ -13,6 +13,8 @@ website:
       - href: downloads/index.qmd
         text: Downloads
       - about.qmd
+      - href: faq.qmd
+        text: FAQ
 
 
 format:
