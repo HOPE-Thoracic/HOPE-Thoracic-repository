@@ -14,13 +14,14 @@
       answer: >
         While individual centers have developed their own protocols and may collaborate in their development, there is currently
         no national trial.
-    - question: How have centers developed their lung protocols?
+    - question: How have centers developed their independent lung protocols?
       answer: >
         Individual transplant centers develop their protocols to be compatible with criteria established by the 
         Department of Health and Human Services.
     - question: What role does HOPE Thoracic play in current heart pilot protocols?
       answer: >
-        HOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
+        HOPE Thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
+        Center are free to 
         
 - category: Heart transplant
   items:
@@ -38,7 +39,7 @@
         Department of Health and Human Services.
     - question: What role does HOPE Thoracic play in current heart pilot protocols?
       answer: >
-        HOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
+        HOPE Thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
 
 - category: Donor evaluation
   items:
