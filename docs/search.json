@@ -39,14 +39,14 @@
     "href": "faq.html",
     "title": "FAQ",
     "section": "",
-    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
+    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers that are either initiating pilot HOPE studies or are interested in participating in future funded work."
   },
   {
     "objectID": "faq.html#general",
     "href": "faq.html#general",
     "title": "FAQ",
     "section": "",
-    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies or interested in participating in future funded work."
+    "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers that are either initiating pilot HOPE studies or are interested in participating in future funded work."
   },
   {
     "objectID": "faq.html#sample-collection",
@@ -60,6 +60,34 @@
     "href": "faq.html#sample-collection-for-pilot-study",
     "title": "FAQ",
     "section": "Sample collection for pilot study",
-    "text": "Sample collection for pilot study\n\n\nShould we collect lymph nodes from donors for the pilot study?\n\nIf possible, yes! Some centers have instituted lymph node collection procedures."
+    "text": "Sample collection for pilot study\n\n\nShould we collect lymph nodes from donors for the pilot study?\n\nIf possible, yes. Some centers have incorporated lymph node collection into their protocols."
+  },
+  {
+    "objectID": "faq.html#lung-transplant",
+    "href": "faq.html#lung-transplant",
+    "title": "FAQ",
+    "section": "Lung transplant",
+    "text": "Lung transplant\n\n\nHas a HOPE (HIV D+/R+) lung transplant been performed to date?\n\nTo date, no center worldwide has performed an HIV D+/R+ lung transplant\n\n\n\nIs there a national trial of HIV D+/R+ lung transplant?\n\nWhile individual centers have developed their own protocols and may collaborate in their development, there is currently no national trial.\n\n\n\nHow have centers developed their lung protocols?\n\nIndividual transplant centers develop their protocols to be compatible with criteria established by the Department of Health and Human Services.\n\n\n\nWhat role does HOPE Thoracic play in current heart pilot protocols?\n\nHOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources."
+  },
+  {
+    "objectID": "faq.html#heart-transplant",
+    "href": "faq.html#heart-transplant",
+    "title": "FAQ",
+    "section": "Heart transplant",
+    "text": "Heart transplant\n\n\nHas a HOPE (HIV D+/R+) heart transplant been performed to date?\n\nYes. Several centers in the United States have performed HIV D+/R+ heart transplants, and others are evaluating patients under open research protocols.\n\n\n\nWhat is the current status of funding for a national trial of HIV D+/R+ heart transplant?\n\nAt present, there is no funded national trial. However, an application has been submitted to the United States National Institutes of Health for future funding.\n\n\n\nHow have centers developed their heart protocols?\n\nIndividual transplant centers develop their protocols to be compatible with criteria established by the Department of Health and Human Services.\n\n\n\nWhat role does HOPE Thoracic play in current heart pilot protocols?\n\nHOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources."
+  },
+  {
+    "objectID": "faq.html#donor-evaluation",
+    "href": "faq.html#donor-evaluation",
+    "title": "FAQ",
+    "section": "Donor evaluation",
+    "text": "Donor evaluation\n\n\nHow are potential donors evaluated under HOPE protocols?\n\nAs with donors without HIV, the evaluation process is initiated by organ procurement organizations (OPOs) and shared via DonorNet. OPOs are encouraged to contact the HOPE-in-Action team, which can help obtain information specific to the donor’s HIV status and prior/current treatment. This information is typically shared via the active HOPE listserv.\n\n\n\nWho makes the ultimate decision about accepting a donor for transplant?\n\nAs with all solid organ transplants, the decision rests with each individual transplant center and the patient (potential recipient). The HOPE-in-Action team serves as a resource for information and coordination but does not make the final decision.\n\n\n\nAre there specific CD4+ lymphocyte count or viral load thresholds that determine donor eligibility?\n\nNo. There are no mandated thresholds. Kidney and liver transplant teams in the United States have successfully transplanted organs from donors with low CD4 counts or high viral loads, provided that opportunistic infection and malignancy are excluded through careful vetting."
+  },
+  {
+    "objectID": "faq.html#recipient-evaluation",
+    "href": "faq.html#recipient-evaluation",
+    "title": "FAQ",
+    "section": "Recipient evaluation",
+    "text": "Recipient evaluation\n\n\nHow are potential recipients evaluated under HOPE protocols?\n\nPending."
   }
 ]

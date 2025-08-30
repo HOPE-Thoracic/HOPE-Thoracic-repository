@@ -2,12 +2,69 @@
   items:
     - question: What is the purpose of this site?
       answer: >
-        This site provides resources and updates for thoracic transplant centers either initializing pilot HOPE studies
-        or interested in participating in future funded work.
+        This site provides resources and updates for thoracic transplant centers that are either initiating pilot HOPE studies
+        or are interested in participating in future funded work.
+        
+- category: Lung transplant
+  items:
+    - question: Has a HOPE (HIV D+/R+) lung transplant been performed to date?
+      answer: >
+        To date, no center worldwide has performed an HIV D+/R+ lung transplant
+    - question: Is there a national trial of HIV D+/R+ lung transplant?
+      answer: >
+        While individual centers have developed their own protocols and may collaborate in their development, there is currently
+        no national trial.
+    - question: How have centers developed their lung protocols?
+      answer: >
+        Individual transplant centers develop their protocols to be compatible with criteria established by the 
+        Department of Health and Human Services.
+    - question: What role does HOPE Thoracic play in current heart pilot protocols?
+      answer: >
+        HOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
+        
+- category: Heart transplant
+  items:
+    - question: Has a HOPE (HIV D+/R+) heart transplant been performed to date?
+      answer: >
+        Yes. Several centers in the United States have performed HIV D+/R+ heart transplants, and others are evaluating patients
+        under open research protocols.
+    - question: What is the current status of funding for a national trial of HIV D+/R+ heart transplant?
+      answer: >
+        At present, there is no funded national trial. However, an application has been submitted to the United States National
+        Institutes of Health for future funding.
+    - question: How have centers developed their heart protocols?
+      answer: >
+        Individual transplant centers develop their protocols to be compatible with criteria established by the 
+        Department of Health and Human Services.
+    - question: What role does HOPE Thoracic play in current heart pilot protocols?
+      answer: >
+        HOPE thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
+
+- category: Donor evaluation
+  items:
+    - question: How are potential donors evaluated under HOPE protocols?
+      answer: >
+        As with donors without HIV, the evaluation process is initiated by organ procurement organizations (OPOs) and shared via
+        DonorNet. OPOs are encouraged to contact the HOPE-in-Action team, which can help obtain information specific to the donor's
+        HIV status and prior/current treatment. This information is typically shared via the active HOPE listserv.
+    - question: Who makes the ultimate decision about accepting a donor for transplant?
+      answer: >
+        As with all solid organ transplants, the decision rests with each individual transplant center and the patient (potential
+        recipient). The HOPE-in-Action team serves as a resource for information and coordination but does not make the final decision.
+    - question: Are there specific CD4+ lymphocyte count or viral load thresholds that determine donor eligibility?
+      answer: >
+        No. There are no mandated thresholds. Kidney and liver transplant teams in the United States have successfully transplanted
+        organs from donors with low CD4 counts or high viral loads, provided that opportunistic infection and malignancy are excluded
+        through careful vetting.
+
+- category: Recipient evaluation
+  items:
+    - question: How are potential recipients evaluated under HOPE protocols?
+      answer: >
+        Pending.
 
 - category: Sample collection for pilot study
   items:
     - question: Should we collect lymph nodes from donors for the pilot study?
       answer: >
-        If possible, yes!  Some centers have instituted lymph node collection procedures.
-        
+        If possible, yes. Some centers have incorporated lymph node collection into their protocols.
