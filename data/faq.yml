@@ -3,25 +3,32 @@
     - question: What is the purpose of this site?
       answer: >
         This site provides resources and updates for thoracic transplant centers that are either initiating pilot HOPE studies
-        or are interested in participating in future funded work.
+        or are interested in participating in future work.
         
 - category: Lung transplant
   items:
     - question: Has a HOPE (HIV D+/R+) lung transplant been performed to date?
       answer: >
-        To date, no center worldwide has performed an HIV D+/R+ lung transplant
-    - question: Is there a national trial of HIV D+/R+ lung transplant?
+        To date, no center worldwide has performed an HIV D+/R+ lung transplant.
+    - question: Is there a national trial of HIV D+/R+ lung transplant planned.
       answer: >
-        While individual centers have developed their own protocols and may collaborate in their development, there is currently
-        no national trial.
+        While individual centers have developed or are developing their own protocols, there is currently no national trial
+        ongoing or in the works.  Any national funded trial is likely years away.
     - question: How have centers developed their independent lung protocols?
       answer: >
         Individual transplant centers develop their protocols to be compatible with criteria established by the 
         Department of Health and Human Services.
+    - question: What are the requirements to develop an HIV D+/R+ transplant program.
+      answer: >
+        Centers must attest to the presence of the teamwork necessary to perform such transplants in such areas as
+        transplant medicine, thoracic surgery, infectious diseases, HIV, and pharmacy.
+    - question: Is there a specific experience or volume requirement?
+      answer: >
+        Volume requirements have now been eliminated in favor of the teamwork requirement.
     - question: What role does HOPE Thoracic play in current heart pilot protocols?
       answer: >
         HOPE Thoracic aims to reduce the barrier for centers to initiate their protocols by providing guidance and resources.
-        Center are free to 
+        Center are free to use materials or to develop their own, as they see fit.
         
 - category: Heart transplant
   items:
@@ -62,7 +69,12 @@
   items:
     - question: How are potential recipients evaluated under HOPE protocols?
       answer: >
-        Pending.
+        HOPE itself does not mandate a specific evaluation process.  Centers typically require that a physician experienced with transplant
+        and with HIV evaluate the potential recipient to ensure that the recipient has been optimized for transplant.  Antiretroviral
+        regimens that contain medications which interact with post-transplant immunosuppression should be changed to those that do not.
+        Prophylaxis strategies may need to be adjusted based on prior opportunistic infection history.  Finally, a careful evaluation for
+        opportunistic infection for which there is no prophylaxis and which may be exacerbated by post-transplant immunosuppression should
+        be undertaken.  See, for example, this [reference](https://journals.asm.org/doi/10.1128/cmr.00111-22) for further details.
 
 - category: Sample collection for pilot study
   items:
