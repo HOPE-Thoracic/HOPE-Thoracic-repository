@@ -10,7 +10,7 @@
     - question: Has a HOPE (HIV D+/R+) lung transplant been performed to date?
       answer: >
         To date, no center worldwide has performed an HIV D+/R+ lung transplant.
-    - question: Is there a national trial of HIV D+/R+ lung transplant planned.
+    - question: Is there a national trial of HIV D+/R+ lung transplant planned?
       answer: >
         While individual centers have developed or are developing their own protocols, there is currently no national trial
         ongoing or in the works.  Any national funded trial is likely years away.
@@ -18,7 +18,7 @@
       answer: >
         Individual transplant centers develop their protocols to be compatible with criteria established by the 
         Department of Health and Human Services.
-    - question: What are the requirements to develop an HIV D+/R+ transplant program.
+    - question: What are the requirements to develop an HIV D+/R+ transplant program?
       answer: >
         Centers must attest to the presence of the teamwork necessary to perform such transplants in such areas as
         transplant medicine, thoracic surgery, infectious diseases, HIV, and pharmacy.
@@ -76,8 +76,18 @@
         opportunistic infection for which there is no prophylaxis and which may be exacerbated by post-transplant immunosuppression should
         be undertaken.  See, for example, this [reference](https://journals.asm.org/doi/10.1128/cmr.00111-22) for further details.
 
-- category: Sample collection for pilot study
+- category: Sample and data collection for pilot study
   items:
     - question: Should we collect lymph nodes from donors for the pilot study?
       answer: >
         If possible, yes. Some centers have incorporated lymph node collection into their protocols.
+    - question: What data should be collected for the pilot study?
+      answer: >
+        Data should be collected consistent with requirements set out by the Department of Health and Human Services.  Each center
+        is responsible for its own data collection instrument.  However, REDCAP and Qualtrics do allow for sharing of instruments
+        without data via the use of appropriate XML or JSON files.  
+        In the future, sites may be able to use pre-developed instruments to modify as they see fit.
+    - question: Will data from multiple sites be collected in the future?
+      answer: >
+        We antitipate future collection of preliminary from sites that have performed HOPE transplants.  
+      
