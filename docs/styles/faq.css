@@ -1,0 +1,50 @@
+/* Container */
+details.faq {
+  border: 1px solid var(--quarto-border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 0 0 0.75rem 0;
+  background: var(--quarto-bg, #fff);
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect */
+details.faq:hover {
+  background-color: #fafafa;
+}
+
+/* Summary (question) styling */
+details.faq > summary {
+  list-style: none;       /* hide default triangle marker */
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  padding-right: 1.5rem;  /* space for chevron */
+  outline: none;
+}
+
+/* Chevron marker */
+details.faq > summary::after {
+  content: "▸";
+  position: absolute;
+  right: 0.25rem;
+  transition: transform 0.15s ease-in-out;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Rotate chevron when open */
+details.faq[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+/* Focus state for accessibility */
+details.faq > summary:focus {
+  box-shadow: 0 0 0 3px rgba(0, 107, 255, 0.2);
+  border-radius: 6px;
+}
+
+/* Answer spacing */
+details.faq > *:not(summary) {
+  margin-top: 0.5rem;
+}

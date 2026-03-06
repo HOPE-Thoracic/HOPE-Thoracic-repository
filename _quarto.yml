@@ -14,6 +14,8 @@ website:
         text: Downloads
       - href: abstracts.qmd
         text: Abstracts
+      - href: media.qmd
+        text: Media
       - about.qmd
       - href: faq.qmd
         text: FAQ
