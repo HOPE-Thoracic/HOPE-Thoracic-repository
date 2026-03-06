@@ -12,6 +12,8 @@ website:
         text: Home
       - href: downloads/index.qmd
         text: Downloads
+      - href: abstracts.qmd
+        text: Abstracts
       - about.qmd
       - href: faq.qmd
         text: FAQ

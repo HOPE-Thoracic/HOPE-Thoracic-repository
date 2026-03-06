@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HOPE Thoracic repository",
+    "section": "",
+    "text": "Welcome to the HOPE Thoracic Repository, a resource for heart and lung transplant programs interested in launching pilot programs for HIV D+/R+ transplants (“HOPE transplants”).\n\n\nBackground\nInvestigators across the U.S. are preparing for a nationwide trial of HIV D+/R+ transplants, planned for launch in 2027.In the meantime, updated federal laws now allow centers to establish their own independent HIV D+/R+ heart transplant programs.\n\n\n\nJoin the Network\nTo join our listserv, please email: mprizzi1 at jhu dot edu or toidcrc at jh dot edu.\n\n\n\nAvailable Resources\nThis site provides sample protocols and paperwork to help your site get started. All materials are freely downloadable, including:\n\nPilot protocol\nSample IRB brief protocol or full protocol\nSample informed consent\nSample DSMB protocol\nTemplate documents for program launch\n\nWe can also connect you with members of our consortium to help establish a Data and Safety Monitoring Board (DSMB) if needed.\nOnce your institution has IRB approval, you can apply for a UNOS variance as per the process delineated here: https://www.hrsa.gov/sites/default/files/hrsa/optn/21_hope-act-variance-request-form.pdf\nWe hope to update this page with information about a future funded trial soon!\n\n\n\nContact\nFor additional questions, please contact:\nVagish Hemmige — vahemmig at montefiore dot org"
+  },
+  {
     "objectID": "downloads/index.html",
     "href": "downloads/index.html",
     "title": "Downloads",
@@ -14,25 +21,32 @@
     "text": "The HOPE Thoracic Repository is a collaborative resource for heart and lung transplant programs interested in launching pilot programs for HIV D+/R+ transplants.\nThis site was created to:\n\nShare protocols, sample documents, and best practices\nConnect programs interested in HOPE transplants\nProvide updates on upcoming clinical trials and regulatory changes\n\nOur materials are intended for transplant centers, clinicians, researchers, and other stakeholders working to expand access to transplantation for people living with HIV.\n\n\n\nWe welcome contributions and collaboration from interested centers. If your program is considering starting a HOPE pilot project, you can:\n\nExplore our Downloads section for ready-to-use resources.\n\nJoin the HOPE Thoracic listserv (see the homepage for contact info).\n\nShare feedback and improvements to our materials."
   },
   {
-    "objectID": "docs/downloads/index.html",
-    "href": "docs/downloads/index.html",
-    "title": "Downloads",
-    "section": "",
-    "text": "Below are all files currently available for download.\n\n\n\n\n\nFile\nSize_MB\nUpdated\n\n\n\n\nMontefiore Einstein HOPE consent.pdf\n0.13\n2025-08-09\n\n\nMontefiore Einstein IRB brief protocol.pdf\n0.26\n2025-08-09\n\n\nMontefiore Einstein full IRB submission.pdf\n8.93\n2025-08-09\n\n\nHOPE Thoracic Pilot Protocol.docx\n0.12\n2025-08-09"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HOPE Thoracic repository",
-    "section": "",
-    "text": "Welcome to the HOPE Thoracic Repository, a resource for heart and lung transplant programs interested in launching pilot programs for HIV D+/R+ transplants (“HOPE transplants”).\n\n\nBackground\nInvestigators across the U.S. are preparing for a nationwide trial of HIV D+/R+ transplants, planned for launch in 2027.In the meantime, updated federal laws now allow centers to establish their own independent HIV D+/R+ heart transplant programs.\n\n\n\nJoin the Network\nTo join our listserv, please email: mprizzi1 at jhu dot edu or toidcrc at jh dot edu.\n\n\n\nAvailable Resources\nThis site provides sample protocols and paperwork to help your site get started. All materials are freely downloadable, including:\n\nPilot protocol\nSample IRB brief protocol or full protocol\nSample informed consent\nSample DSMB protocol\nTemplate documents for program launch\n\nWe can also connect you with members of our consortium to help establish a Data and Safety Monitoring Board (DSMB) if needed.\nOnce your institution has IRB approval, you can apply for a UNOS variance as per the process delineated here: https://www.hrsa.gov/sites/default/files/hrsa/optn/21_hope-act-variance-request-form.pdf\nWe hope to update this page with information about a future funded trial soon!\n\n\n\nContact\nFor additional questions, please contact:\nVagish Hemmige — vahemmig at montefiore dot org"
-  },
-  {
     "objectID": "about.html#about-this-site",
     "href": "about.html#about-this-site",
     "title": "About",
     "section": "",
     "text": "The HOPE Thoracic Repository is a collaborative resource for heart and lung transplant programs interested in launching pilot programs for HIV D+/R+ transplants.\nThis site was created to:\n\nShare protocols, sample documents, and best practices\nConnect programs interested in HOPE transplants\nProvide updates on upcoming clinical trials and regulatory changes\n\nOur materials are intended for transplant centers, clinicians, researchers, and other stakeholders working to expand access to transplantation for people living with HIV.\n\n\n\nWe welcome contributions and collaboration from interested centers. If your program is considering starting a HOPE pilot project, you can:\n\nExplore our Downloads section for ready-to-use resources.\n\nJoin the HOPE Thoracic listserv (see the homepage for contact info).\n\nShare feedback and improvements to our materials."
+  },
+  {
+    "objectID": "abstracts.html",
+    "href": "abstracts.html",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\nNATIONAL\n\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link"
+  },
+  {
+    "objectID": "abstracts.html#oral-presentations",
+    "href": "abstracts.html#oral-presentations",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\nNATIONAL\n\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link"
+  },
+  {
+    "objectID": "abstracts.html#poster-presentations",
+    "href": "abstracts.html#poster-presentations",
+    "title": "Conference Abstracts",
+    "section": "Poster Presentations",
+    "text": "Poster Presentations\nNo entries."
   },
   {
     "objectID": "faq.html",
@@ -47,20 +61,6 @@
     "title": "FAQ",
     "section": "",
     "text": "What is the purpose of this site?\n\nThis site provides resources and updates for thoracic transplant centers that are either initiating pilot HOPE studies or are interested in participating in future work."
-  },
-  {
-    "objectID": "faq.html#sample-collection",
-    "href": "faq.html#sample-collection",
-    "title": "FAQ",
-    "section": "Sample collection",
-    "text": "Sample collection\n\n\nCan I contribute?\n\nYes! Open a GitHub issue or email the maintainer."
-  },
-  {
-    "objectID": "faq.html#sample-collection-for-pilot-study",
-    "href": "faq.html#sample-collection-for-pilot-study",
-    "title": "FAQ",
-    "section": "Sample collection for pilot study",
-    "text": "Sample collection for pilot study\n\n\nShould we collect lymph nodes from donors for the pilot study?\n\nIf possible, yes. Some centers have incorporated lymph node collection into their protocols."
   },
   {
     "objectID": "faq.html#lung-transplant",
