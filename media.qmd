@@ -1,0 +1,22 @@
+---
+title: "Media"
+format:
+  html:
+    page-layout: full
+---
+
+
+## Podcast Appearances
+
+
+### Episode 79: Early Experience in Heart Transplantation Using Donors with HIV
+
+*Podcast: JHLT Podcast*
+
+Dr. Omar Saeed discussing the HIV-to-HIV heart transplant program.
+
+::: {style="margin-top: 0.75rem; margin-bottom: 1.5rem;"}
+<iframe title="Libsyn Player" style="border:none" src="https://html5-player.libsyn.com/embed/episode/id/40297065/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/005274/" height="90" width="100%" scrolling="no">
+
+</iframe>
+:::
